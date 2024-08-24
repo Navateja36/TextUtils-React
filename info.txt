@@ -1,0 +1,22 @@
+public : static page for html,images,videos
+src: dynamic page for css,js,ts, etc.
+app.js is our site for our understanding...
+created a root id in html ---->  linked with index.js in src ----->this index.js activates the app.js----->activated app.js-------->>which is our web page.
+In react there are two components 1.class based component 2.funciton based component.the funciton based component is in trend whcih is what used in (app.js)----->fucn App()
+and inside funn App() we write the code in jsx(java script extension) which we return in that particular function---->jsx is nothing but in simple terms it's an html format code.
+I wanna say that html code is written in format of java script which we call is jsx(javascript extension).we can call as jsx is combination of html+js.where js is written in curly brackets in jsx.
+***  in setting --> emmet --> add in included languages to --> javascript to javascriptreact.
+In return block there should be only one return statement like only 1-div block, if u want more than one div blocks then you have to write whole code in paranthesis like(<> content </>)the code/html should be written between these.
+there is no meaning called reload but in html css js reload happens for evry page.  
+the href should be like this ---->> href="/" and closing tags should be present. eg: hr tags
+I have created a folder called components where it have actual code whcih we export(navbar.js) and import from other folder(app.js).
+you made a component and you want to pass somethings in it, you say that this is the components with some variables in it which i will tell what it will be this is called props
+NavBar.propTypes={title:PropTypes.string, about: PropTypes.string} ------> this means the title and about should be string not other datatypes
+title:PropTypes.string.isRequired --------> if the input is not given then error occurs
+useState is a hook in react which store the current state and update state of present variable.
+for eg:
+        const [text,setText]=useState('Enter text here');--------->here the text is updated using setText funciton. and text is current text.to clear the default value of text is"enter text here".f
+to use image in jsx we should not direcly write path of image instead ------>import img from './img.jpg' we have to import and assing on one variable and use like src={img}.
+if u want ot change the styel of particular element ---> style={{ height: '300px' }}
+import { useState } from "react" this is how we import useState.
+Comments: Use {/* comment */} syntax for comments inside JSX.
